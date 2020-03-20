@@ -1,44 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Gabi Berbetoros | Composer | Sound Designer" />
-    <meta name="author" content="Fer Alonso MAccari">
+    <meta name="author" content="Fer Alonso MAccari" />
 
-    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet" />
 
     <link rel="icon" type="image/png" href="src/mate.png" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/animate.css" />
     <title>Portfolio | Gabi Berbetoros</title>
-</head>
-<body class="body-wrapper">
+  </head>
+  <body class="body-wrapper">
+    <header>
+      <div class="particles" id="particles-js"></div>
+      <section class="section header__wrapper">
+        <article class="wow fadeInLeft header__title">
+          <h1 class="title__name">Gabi <small class="title__icon"> 👽 </small> Berbetoros</h1>
 
-        <header>
-            <section class="section header__wrapper">
-                <article class="header__title">
-                    <h1 class="title__name">Gabi Berbetoros</h1>
-                    <!-- <small class="title__icon">👾</small> -->
-                    <h2 class="title__subtitle">Composer | Sound Designer</h2>
-                </article>
-                <nav class="nav header__nav">
-                    <a class="nav-link" href="">Skills</a>
-                    <a class="nav-link" href="">Experience</a>
-                    <a class="nav-link" href="">Contact me</a>
-                </nav>
-            </section>
-        </header>
+          <h2 class="title__subtitle">Composer | Sound Designer</h2>
+        </article>
+        <nav class="nav header__nav">
+          <a class="nav-link" href="">About</a>
+          <a class="nav-link" href="">Skills</a>
+          <a class="nav-link" href="">Experience</a>
+          <a class="nav-link" href="">Examples</a>
+          <a class="nav-link" href="">Contact</a>
+        </nav>
+      </section>
+    </header>
 
-        <main></main>
+    <main>
+      <section class="section cover-letter">
+        <h2 class="section__title">HELLO!</h2>
+        <article class="cover-letter__article">
+          <div class="cover-letter__desc">
+            <p class="desc">
+              My name is Gabriel Berbetoros. I'm a Creative <b>Music Composer and sound designer</b> for video games and visual effects, 
+              proficient in multiple <b>audio production softwares</b>. Specialized in a wide variety of
+              genres, from modern to orchestral music.
+            </p>
+            <p class="class=">
+              If you're interested in my work or have any questions, feel free to contact me.
+            </p>
+          </div>
+          <div class="cover-letter__photo"></div>
+        </article>
+      </section>
 
-        <footer></footer>
+      <section class="wow pulse section skills">
+        <h2 class="section__title">Skills</h2>
+        <p class="desc">
+          I work with a <b>variety of instruments</b>, <b>musical softwares</b> and <b>sound design tools</b> such like:
+        </p>
+        <ul>
+          <li>Pro Tools</li>
+          <li>Cubase</li>
+          <li>Nuendo</li>
+          <li>Ableton</li>
+          <li>Live</li>
+          <li>Reaper</li>
+          <li>Logic</li>
+          <li>Fmod</li>
+          <li>Sibelius</li>
+          <li>Guitar Pro</li>
+          <li>Studio One</li>
+        </ul>
+      </section>
 
+      <section class="wow pulse section examples">
+        <h2 class="section__title">Examples</h2>
 
-    
-</body>
+        <iframe
+          class="desc"
+          width="100%"
+          height="500"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/865961664&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        ></iframe>
+      </section>
+
+      <section class="section contact" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nostrum nemo hic ut sit officia maxime, laborum incidunt cumque nulla eius earum, quod culpa minus.
+        </p>
+        <form class="contact__form" action="">
+          <input class="field" type="text" placeholder="" />
+          <input class="field" type="text" placeholder="" />
+          <input class="field" type="email" name="" placeholder="" />
+          <textarea class="field field--textarea" name="" cols="30" rows="10" placeholder=""></textarea>
+          <a class="btn btn--contact" href="">Enviar</a>
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/particles.js-master/particles.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
