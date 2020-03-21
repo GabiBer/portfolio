@@ -60,6 +60,13 @@ footer {
   /* padding-top: 5rem;
   padding-bottom: 5rem; */
 }
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
 .nav {
   position: relative;
   z-index: 9;
@@ -102,7 +109,7 @@ footer {
   position: relative;
   transition: all 0.2s ease-in;
 }
-.nav-social-link:not(:first-child){
+.nav-social-link:not(:first-child) {
   margin-left: 1rem;
 }
 .nav-social__icon {
@@ -204,25 +211,22 @@ footer {
 .contact__form {
   width: 100%;
 }
-.contact__info {
-  font-size: 1.2em;
-  text-align: left;
-}
 .btn {
+  display: inline-block;
   background: #191919;
-  border: 0.3rem solid #ddd;
+  border: 0.1rem solid #ddd;
   text-decoration: none;
   color: #ddd;
   text-align: center;
   padding: 1rem;
-  margin: 5rem 0;
+  margin: 0.3rem 0;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 .btn:hover {
   border-radius: 1rem;
   opacity: 0.7;
 }
-
 .field {
   display: block;
   margin: 1rem 0;
@@ -231,8 +235,8 @@ footer {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
+  color: #ddd;
+  background-color: rgb(25, 25, 25);
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -245,14 +249,15 @@ footer {
 .field--textarea {
   height: auto;
 }
-
 .field:focus {
-  border-color: var(--secundary-color);
+  border-color: #79db75;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--secundary-color);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--secundary-color);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px #79db75;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px #79db75;
 }
-
+.fields-requirements {
+  margin: 0.3rem 0;
+}
 .footer__name {
   color: rgb(50, 50, 50);
   width: 75%;

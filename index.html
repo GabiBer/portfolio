@@ -96,19 +96,22 @@
         ></iframe>
       </section>
 
-      <!-- <section class="section contact" id="contact">
+      <section class="section contact" id="contact">
         <h2 class="section__title">Contact Me</h2>
         <p class="desc">
           Feel free to cantact me at any time, and I'll do my best to reply as soon as possible.
         </p>
-        <form class="contact__form" action="">
-          <input class="field" type="text" placeholder="" />
-          <input class="field" type="text" placeholder="" />
-          <input class="field" type="email" name="" placeholder="" />
-          <textarea class="field field--textarea" name="" cols="30" rows="10" placeholder=""></textarea>
-          <a class="btn" href="">Enviar</a>
+        Direct email: <a class="link " href="mailto:gabirelberbetoros@gmail.com">gabirelberbetoros@gmail.com</a>
+        <form class="contact__form" method="POST" action="http://formspree.io/you@gabirelberbetoros@gmail.com">
+          <label for=""></label>
+          <input class="field" type="text" name="Name" placeholder="Name*" id="name"/>
+          <input class="field" type="email" name="_replyto" placeholder="Email*" id="email" />
+          <input type="hidden" name="_next" value="//site.io/thanks.html" />
+          <textarea class="field field--textarea" cols="30" rows="10" placeholder="Message*" id="message" name="message"></textarea>
+          <p class="fields-requirements">All the fields are required.</p>
+          <input class="btn" type="submit" value="Send"></input>
         </form>
-      </section>-->
+      </section>
     </main> 
 
     <footer>
@@ -129,17 +132,7 @@
           ><div class="nav-social__icon nav-social__icon-in"></div
           ></a>
         </nav>
-        <!-- <div class="footer__wrapper">
-          <nav class="nav header__nav">
-            <a class="nav-link" href="#skills">Skills</a>
-            <a class="nav-link" href="#experience">Experience</a>
-            <a class="nav-link" href="#example">Examples</a>
-            <a class="nav-link" href="#contact">Contact</a>
-          </nav>
-        </div> -->
       </section>
-
-
     </footer>
 
     <script src="js/particles.js-master/particles.min.js"></script>
