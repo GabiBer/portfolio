@@ -44,10 +44,7 @@ footer {
   /* background-color: rgb(25, 25, 25); */
   background-color: black;
 }
-.wrapper{
-  height: 100%;
-  width: 100%;
-}
+
 .particles {
   position: absolute;
   width: 100%;
