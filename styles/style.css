@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: "Quicksand";
   line-height: 2rem;
+  background-color: black;
 }
 
 .body-wrapper {
@@ -208,6 +209,36 @@ footer {
   background-repeat: no-repeat;
 }
 
+.experience__item {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2.5rem 0;
+}
+.experience__date {
+  width: 100%
+}
+.experience__desc {
+  width: 100%
+}
+.experience__desc__title{
+  margin: 0;
+}
+.experience__desc__subtitle{
+  margin: 0;
+  font-weight: bold;
+  color:#79db75;
+  font-size: .9em;
+}
+.experience__desc__subtitle--nourl{
+  color: #fff;
+}
+.experience__desc__subtitle--nourl:hover{
+  text-decoration: none;
+}
+.experience__desc span{
+  display: block;
+}
+
 .contact__form {
   width: 100%;
 }
@@ -294,6 +325,12 @@ footer {
     width: 50%;
     height: 20rem;
     margin: 0;
+  }
+  .experience__date {
+    width: 25%;
+  }
+  .experience__desc {
+    width: 75%;
   }
 
   .contact__form {
